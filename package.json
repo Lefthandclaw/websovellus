@@ -1,15 +1,16 @@
 {
-  "name": "websovellus",
+  "name": "server-example-25",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "MP",
   "license": "ISC",
-  "keywords": [],
   "devDependencies": {
     "@eslint/js": "^9.18.0",
     "eslint": "^9.18.0",
@@ -19,8 +20,6 @@
     "prettier": "3.4.2"
   },
   "dependencies": {
-    "body-parser": "^1.20.3",
     "express": "^4.21.2"
-  },
-  "description": ""
+  }
 }
