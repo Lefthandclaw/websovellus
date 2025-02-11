@@ -1,8 +1,13 @@
+# sample .editorconfig
+
+# Top-most EditorConfig file
 root = true
 
+# File encoding
 [*]
 charset = utf-8
 
+# Indentation settings
 [*.{js,mjs}]
 indent_style = space
 indent_size = 2
@@ -15,14 +20,18 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+# Line endings
 [*]
 end_of_line = lf
 
+# Trailing whitespace
 [*]
 trim_trailing_whitespace = true
 
+# New line at the end of the file
 [*]
 insert_final_newline = true
 
+# Maximum line length
 [*.{js,mjs,css,html}]
 max_line_length = 80
